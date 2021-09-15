@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+}
+
+.left-arrow,
+.right-arrow{
+    width: 50px;
+    height: 700px;
+    background-color: lime;
+}
+
+.image-container {
+    width: calc(100% - 100px);
+    height: 700px;
+    background-color: blue;
+}
+
+.left-arrow i,
+.right-arrow i {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background-color: violet;
+}
+
+.left-arrow i:hover,
+.right-arrow i:hover {
+    color: white;
+}
+
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
