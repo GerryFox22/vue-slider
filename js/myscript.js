@@ -47,6 +47,10 @@ var app = new Vue({
                 this.imageIndex = this.images.length - 1 ;
             }
         },
+
+        changeImage : function (index) {
+            this.imageIndex = index;
+        }
     
     },
   });
